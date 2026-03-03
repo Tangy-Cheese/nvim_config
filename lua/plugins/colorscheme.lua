@@ -1,13 +1,19 @@
 return {
-  {
-    "maxmx03/fluoromachine.nvim",
-    priority = 1000,
-    config = function()
-      require("fluoromachine").setup({
-        glow = true, -- disable glow for cleaner look
-        theme = "fluoromachine", -- default variant
-      })
-      vim.cmd("colorscheme fluoromachine")
-    end,
-  },
+    {
+        'maxmx03/fluoromachine.nvim',
+        lazy = false,
+        priority = 1000,
+        config = function ()
+         local fm = require 'fluoromachine'
+
+         fm.setup {
+            glow = true,
+            theme = 'fluoromachine',
+            transparent = false,
+         }
+
+         vim.cmd.colorscheme 'fluoromachine'
+        end
+    }
 }
+
