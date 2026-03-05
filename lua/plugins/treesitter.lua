@@ -19,6 +19,8 @@ return {
       "c",
       "cpp",
       "javascript",
+      "latex",
+      "bibtex",
     })
 
     -- enable treesitter highlighting
