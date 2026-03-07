@@ -15,7 +15,7 @@ return {
         lualine_a = {
           {
             "mode",
-            color = { bg = "#00d7ff", fg = "#1e1f28" },
+            color = { bg = "#ff5fd7", fg = "#1e1f28" },
           },
         },
 
