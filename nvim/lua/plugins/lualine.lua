@@ -14,8 +14,7 @@ return {
       sections = {
         lualine_a = {
           {
-            "mode",
-            color = { bg = "#ff5fd7", fg = "#1e1f28" },
+            "mode"
           },
         },
 
@@ -34,8 +33,7 @@ return {
 
         lualine_z = {
           {
-            "location",
-            color = { bg = "#ff5fd7", fg = "#1e1f28" },
+            "location"
           },
         },
       },
