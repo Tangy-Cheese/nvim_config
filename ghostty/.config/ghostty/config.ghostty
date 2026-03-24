@@ -7,8 +7,6 @@ font-size = 10
 
 window-padding-x = 0
 window-padding-y = 0
-background-opacity = 0.95
-window-decoration = 
 
 # Cursor
 
@@ -16,42 +14,9 @@ cursor-style = block
 
 # Colors (Pure monochrome)
 
-background = #000000
-foreground = #ffffff
-
-# Normal colors
-
-palette = 0=#000000
-palette = 1=#111111
-palette = 2=#222222
-palette = 3=#333333
-palette = 4=#444444
-palette = 5=#555555
-palette = 6=#666666
-palette = 7=#777777
-
-# Bright colors
-
-palette = 8=#888888
-palette = 9=#999999
-palette = 10=#AAAAAA
-palette = 11=#BBBBBB
-palette = 12=#CCCCCC
-palette = 13=#DDDDDD
-palette = 14=#EEEEEE
-palette = 15=#FFFFFF
-
-# Selection
-
-
-selection-background = #ffffff
-selection-foreground = #000000
-
-# Wallpaper settings
-
-background-image = ~/.dotfiles/ghostty/.config/ghostty/wallpaper.png
-background-opacity = 1
+theme = Fun Forrest 
 
 # Auto-update
 
 auto-update = check
+
