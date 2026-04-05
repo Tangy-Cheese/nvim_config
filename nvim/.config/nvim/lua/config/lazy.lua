@@ -27,7 +27,6 @@ require("lazy").setup({
     -- import your plugins
     { import = "plugins" },
     { import = "plugins.lsp" },
-    { import = "plugins.vim_motions" },
   },
   -- Configure any other settings here. See the documentation for more details.
   -- colorscheme that will be used when installing plugins.
