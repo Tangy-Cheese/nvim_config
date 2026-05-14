@@ -1,0 +1,17 @@
+name: ATI_work
+root: ~/codes/ATI_atto
+
+windows:
+  - main:
+      layout: tiled
+      panes:
+        - nvim
+        - claude
+        - 
+        - tomodoro -E
+  - testing:
+      panes:
+        -
+  - btop: btop
+  - yazi: yazi
+  - lazygit: lazygit

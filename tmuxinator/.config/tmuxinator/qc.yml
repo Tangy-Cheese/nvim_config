@@ -1,0 +1,17 @@
+name: QKD
+root: ~/codes/network_quantum_comms
+
+windows:
+  - main:
+      layout: tiled
+      panes:
+        - nvim
+        - claude
+        - 
+        - tomodoro -E
+  - testing:
+      panes:
+        -
+  - btop: btop
+  - yazi: yazi
+  - lazygit: lazygit

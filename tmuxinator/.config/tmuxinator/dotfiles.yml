@@ -1,0 +1,17 @@
+name: dotfiles 
+root: ~/.dotfiles/
+
+windows:
+  - main:
+      layout: tiled
+      panes:
+        - nvim
+        - claude
+        - 
+        - tomodoro -E
+  - testing:
+      panes:
+        -
+  - btop: btop
+  - yazi: yazi
+  - lazygit: lazygit
