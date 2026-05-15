@@ -1,7 +1,7 @@
-add_newline = true
+add_newline = false
 command_timeout = 200
-format = """[$python$username$hostname$directory$git_branch$git_status]($style)
-$character"""
+right_format = """$git_branch$git_status"""
+format = """[$python$username$hostname$directory](bold cyan)$character"""
 
 [python]
 format = '(\($virtualenv\) )($style)'
@@ -21,8 +21,8 @@ disabled = false
 ssh_only = false
 
 [character]
-error_symbol = "[✗](bold cyan)"
-success_symbol = "[➜](bold cyan)"
+success_symbol = '[𝜓 ](bold green)'
+error_symbol = '[𝜓 ](bold red)'
 
 [directory]
 truncation_length = 2
