@@ -1,21 +1,23 @@
 add_newline = false
 command_timeout = 200
-format = """[$python$username$hostname$directory](bold cyan)$git_branch$git_status$character"""
+format = """[$conda$python$username$hostname$directory](bold cyan)$git_branch$git_status$character"""
 
 [python]
 format = '(\($virtualenv\) )($style)'
 style  = 'bold fg:5'
 
+[conda]
+format = '[\($environment\) ]($style)'
+style = "bold #FFFFFF"
+ignore_base = false
+
 [username]
 format          = '[$user]($style)'
-style_user      = 'bold fg:9'
-style_root      = 'bold fg:9'
 show_always     = true
 detect_env_vars = []
 
 [hostname]
 format   = '[@$hostname] ($style)'
-style    = 'bold fg:9'
 disabled = false
 ssh_only = true
 
@@ -40,7 +42,7 @@ style      = "#4488ff"
 ahead      = "⇡${count} "
 diverged   = "⇕⇡${ahead_count}⇣${behind_count} "
 behind     = "⇣${count} "
-conflicted = " "
+conflicted = " "
 up_to_date = " "
 untracked  = "? "
 modified   = " "
