@@ -9,6 +9,8 @@ window-padding-x = 4
 window-padding-y = 4
 unfocused-split-opacity = 1.0
 
+background-opacity = 0.80
+
 # Cursor
 mouse-hide-while-typing = true
 cursor-style = block
