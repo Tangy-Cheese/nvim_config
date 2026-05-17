@@ -1,0 +1,14 @@
+[user]
+	name = Adam Tang
+	email = adamtang2004@hotmail.com
+[core]
+	editor = nvim
+	autocrlf = input
+[color]
+	ui = auto
+[init]
+	defaultBranch = main
+[pull]
+	rebase = false
+[url "git@github.com:"]
+	insteadOf = https://github.com/
